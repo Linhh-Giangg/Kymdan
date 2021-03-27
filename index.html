@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>KYMDAN KHAI NGUYÊN</title>
+<script type="application/x-javascript">
+	
+addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+
+</script>
+<!-- css -->
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css"
+	media="all" />
+<link rel="stylesheet" href="css/style.css" type="text/css"
+	media="all" />
+<link rel="stylesheet" href="css/font-awesome.min.css"
+	type="text/css" media="all" />
+<link rel="stylesheet" href="css/index.css" type="text/css"
+	media="all" />
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<!-- start-smooth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event) {
+			event.preventDefault();
+			$('html,body').animate({
+				scrollTop : $(this.hash).offset().top
+			}, 1000);
+		});
+	});
+</script>
+<!-- //start-smoth-scrolling -->
+<!-- here stars scrolling icon -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		 */
+
+		$().UItoTop({
+			easingType : 'easeOutQuart'
+		});
+
+	});
+</script>
+</head>
+<body>
+	<div class="header-top-w3layouts">
+		<div class="container">
+			<div class="indicat-w3">
+				<span><i class="glyphicon glyphicon-map-marker"
+					aria-hidden="true"></i>28 Bình Thới, Phường 14, Quận 11, Tp. Hồ Chí
+					Minh</span>
+			</div>
+			<div class="detail-w3l">
+				<ul>
+					<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>
+						+84 1800 9053</li>
+					<li><i class="glyphicon glyphicon-time" aria-hidden="true"></i>
+						Mon-Sat 8:00 am to 21:00 pm</li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="banner" id="banner">
+		<div class="ban-top ">
+			<div class="container">
+				<div class="ban-top-con">
+					<div class="top_nav_right">
+						<a href="#"><img src="images/logo.png" alt=""></a>
+					</div>
+					<div class="top_nav_left">
+						<nav class="navbar navbar-default">
+							<div class="container-fluid">
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed"
+										data-toggle="collapse"
+										data-target="#bs-example-navbar-collapse-1"
+										aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span> <span
+											class="icon-bar"></span> <span class="icon-bar"></span> <span
+											class="icon-bar"></span>
+									</button>
+								</div>
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse menu--shylock"
+									id="bs-example-navbar-collapse-1">
+									<ul class="nav navbar-nav menu__list">
+										<li class=" menu__item"><a class="menu__link" href="">Trang
+												Chủ</a></li>
+										<li class=" menu__item"><a class="menu__link scroll"
+											href="#about">Giới Thiệu</a></li>
+										<li class=" menu__item"><a class="menu__link scroll"
+											href="#thinness">Độ Dày</a></li>
+										<li class=" menu__item"><a class="menu__link scroll"
+											href="#gallery">Thiết Kế</a></li>
+										<li class=" menu__item"><a class="menu__link scroll"
+											href="#contact">Contact</a></li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<div class="ban-bot text-center">
+			<script src="js/responsiveslides.min.js"></script>
+			<script>
+				// You can also use "$(window).load(function() {"
+				$(function() {
+					// Slideshow 4
+					$("#slider3").responsiveSlides(
+							{
+								auto : true,
+								pager : true,
+								nav : false,
+								speed : 500,
+								namespace : "callbacks",
+								before : function() {
+									$('.events').append(
+											"<li>before event fired.</li>");
+								},
+								after : function() {
+									$('.events').append(
+											"<li>after event fired.</li>");
+								}
+							});
+				});
+			</script>
+			<div id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="ban-info">
+							<h3>Architecture is a visual art</h3>
+							<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+								amet, consectetur</p>
+							<a class="hvr-rectangle-out" href="#" data-toggle="modal"
+								data-target="#myModal">Read More</a>
+						</div>
+					</li>
+					<li>
+						<div class="ban-info">
+							<h3>We really care about your comfort</h3>
+							<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+								amet, consectetur</p>
+							<a class="hvr-rectangle-out" href="#" data-toggle="modal"
+								data-target="#myModal">Read More</a>
+						</div>
+					</li>
+					<li>
+						<div class="ban-info">
+							<h3>We love to design the best for you</h3>
+							<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+								amet, consectetur</p>
+							<a class="hvr-rectangle-out" href="#" data-toggle="modal"
+								data-target="#myModal">Read More</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Nulla ipsum</h4>
+				</div>
+				<div class="modal-body">
+					<p>Sed bibendum, lacus quis efficitur efficitur, quam ligula
+						rutrum justo, in lacinia diam lorem nec augue. Aliquam erat
+						volutpat. Sed cursus nisi vitae arcu ultrices malesuada. Quisque
+						et velit porta, pharetra enim ac, accumsan libero. Maecenas id
+						feugiat arcu. Proin accumsan diam at nisi aliquet elementum.
+						Aliquam erat volutpat. Nam malesuada augue dui, ac convallis dui
+						ultrices vel.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="about-w3ls" id="about">
+		<div class="container">
+			<h2 style="color: green;">Giới thiệu</h2>
+			<p style="text-align: center;">
+				<span style="font-size: 16px;"> <img alt=""
+					class="img-responsive;img-center"
+					src="images/title_dac_tinh_nem.png" style="width: 100%;">
+				</span>
+			</p>
+			<div id="load-oustanding-features" align="center"
+				class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div id="html5uudiem" style="width: 100%;">
+					<div class="feature-container">
+						<img class="feature-bg img-responsive"
+							src="images/dac_tinh_nem_mousse.png">
+						<div id="health-icon" class="feature-icon" data-feature="health"
+							data-popup="health-popup">
+							<img class="img-responsive"
+								src="images/suc_khoe_dac_tinh_nem.png">
+						</div>
+						<div id="safety-icon" class="feature-icon" data-feature="safety"
+							data-popup="safety-popup">
+							<img class="img-responsive"
+								src="images/an_toan_dac_tinh_nem.png">
+						</div>
+						<div id="durability-icon" class="feature-icon"
+							data-feature="durability" data-popup="durability-popup">
+							<img class="img-responsive" src="images/ben_dac_tinh_nem.png">
+						</div>
+						<div id="comfort-icon" class="feature-icon" data-feature="comfort"
+							data-popup="comfort-popup">
+							<img class="img-responsive"
+								src="images/thoai_mai_dac_tinh_nem.png">
+						</div>
+					</div>
+					<div class="feature-popup"></div>
+				</div>
+			</div>
+			<p>&nbsp;</p>
+			<h3 style="text-align: center; padding-bottom: 15px;">
+				<span style="font-size: 20px;"> <span align="center"
+					style="color: green;">&nbsp;Đặc tính nệm mousse cao su
+						KYMDAN</span>
+				</span>
+			</h3>
+			<p style="text-align: justify; color: green;">
+				<span style="font-size: 16px;">Tất cả các sản phẩm&nbsp; <strong>nệm
+						(mattress)&nbsp;<strong>KYMDAN</strong>
+				</strong>&nbsp; được cấu tạo gồm:
+				</span>
+			</p>
+			<p style="text-align: justify; color: green;">
+				<span style="font-size: 16px;"> - Phần mousse cao su KYMDAN
+					(thường gọi là thân nệm, ruột nệm) làm hoàn toàn từ &nbsp;latex cao
+					su &nbsp;thiên nhiên, ở dạng bọt (sponge, mousse), có chất lượng
+					độc đáo với 15&nbsp;ưu điểm nổi bật&nbsp;mà chưa một sản phẩm tương
+					tự nào trên thế giới đạt được. </span>
+			</p>
+			<p style="text-align: justify; color: green;">
+				<span style="font-size: 16px;"> - Phần vỏ bọc&nbsp;nệm bao
+					ngoài phần mousse từ chất liệu thun Jersey và các chất liệu vải
+					ngoại nhập khác, được thiết kế, may đo ôm sát từng đường nét thân
+					nệm. Vỏ&nbsp;bọc nệm&nbsp;không những không làm thay đổi các tính
+					năng ưu việt của mousse cao su KYMDAN, còn góp phần mang lại cho
+					khách hàng cảm giác trải nghiệm sản phẩm tốt nhất, tăng cường giữ
+					vệ sinh, bảo quản nệm. </span>
+			</p>
+			<p style="text-align: justify; color: green;">
+				<span style="font-size: 16px;"> - Ngoài ra, để điều kiện bảo
+					quản sản phẩm hoàn hảo nhất, Quý khách nên sử dụng nệm cùng với Tấm
+					an toàn vệ sinh nệm KYMDAN</a>, được may bằng vải chần gòn, 04 góc được
+					may dây gút&nbsp;để cố định trải trên bề mặt nệm (dưới lớp drap
+					(ga) phủ trang trí), kích thước tương ứng với kích thước bề mặt
+					nệm.&nbsp;<strong>Tấm an toàn vệ sinh nệm KYMDAN </strong> là một
+					phương pháp hữu hiệu cách ly nệm khỏi các nguồn nhiễm bẩn có thể
+					phát sinh, nhất là khi sử dụng chung nệm ở các cơ sở lưu trú trong
+					các trường hợp đi du lịch, công tác.
+				</span>
+			</p>
+			<p style="text-align: justify; color: green;">
+				<span style="font-size: 16px;"> <strong>Nệm
+						(mattress) KYMDAN </strong>thân thiện với môi trường, an toàn cho người sử
+					dụng, mềm mại, đàn hồi. Nệm (mattress) KYMDAN cho bạn một sự nâng
+					đỡ tuyệt hảo ở mọi tư thế nằm, tạo giấc ngủ sâu và sảng khoái.
+				</span>
+			</p>
+			
+			<div align="center">
+					<img src="images/product1.jpg" style="width: 48%;"> <img
+						src="images/product2.jpg" style="width: 50%;">
+				</div>
+				<div align="center" style="padding-top: 20px; color: #fff">
+					<span style="font-size: 16px;"> <span
+						style="font-family: comic sans ms, cursive;"> <span
+							style="font-family: arial, helvetica, sans-serif;"> <strong
+								style="color: green; font-size: 16px;">Nệm (mattress)
+									mousse cao su&nbsp;KYMDAN</strong>
+						</span>
+					</span>
+					</span> <br> &nbsp;
+				</div>
+				<div align="center">
+					<img src="images/product3.gif" style="width: 60%;">
+				</div>
+				<div align="center" style="padding-top: 20px; color: #fff">
+					<span style="font-size: 16px;"> <span
+						style="font-family: comic sans ms, cursive;"> <span
+							style="font-family: arial, helvetica, sans-serif;"> <strong
+								style="color: green; font-size: 16px;">Mousse nệm
+									KYMDAN - Chịu lực kéo đứt, chịu lực xé rách cao</strong>
+						</span>
+					</span>
+					</span> <br> &nbsp;
+				</div>
+				<div align="center">
+					<img src="images/product4.png" style="width: 33%;"> <img
+						src="images/product5.png" style="width: 33%;"> <img
+						src="images/product6.gif" style="width: 33%;">
+				</div>
+				<div align="center" style="padding-top: 20px; color: #fff">
+					<span style="font-size: 16px;"> <span
+						style="font-family: comic sans ms, cursive;"> <span
+							style="font-family: arial, helvetica, sans-serif;"> <strong
+								style="color: green; font-size: 16px;">Nệm KYMDAN -
+									không xẹp (lún, trũng), lực chịu nén ép, độ đàn hồi cao, phục
+									hồi hoàn toàn về hình dạng và kích thước ban đầu ngay lập tức.</strong>
+						</span>
+					</span>
+					</span> <br> &nbsp;
+				</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="services-wthree" id="thinness">
+		<div class="container">
+			<h3 style="color: #fff">Độ dày của nệm KYMDAN</h3>
+			<p>
+				<span style="font-size: 16px; color: #fff"> <span
+					style="font-family: arial, helvetica, sans-serif;">Nệm&nbsp;<strong>(mattress)</strong>&nbsp;<strong>KYMDAN
+							Deluxe</strong>&nbsp;có cấu trúc gồm các lỗ vuông to ở phần chân nệm trong
+						khi bề mặt nệm là các lỗ tròn nhỏ được phân bố đều, rộng khắp bề
+						mặt giúp gia tăng tác dụng của sự thông thoáng nhờ tăng cường diện
+						tích tiếp xúc.
+				</span>
+				</span>
+			</p>
+			<img src="images/do_day_nem_kymdan.gif" alt="">
+			<div align="center" style="padding-top: 20px; color: #fff">
+				<span style="font-size: 16px;"> <span
+					style="font-family: comic sans ms, cursive;"> <span
+						style="font-family: arial, helvetica, sans-serif;"> <strong>Các
+								kích thước độ dày của Nệm&nbsp;KYMDAN</strong>
+					</span>
+				</span>
+				</span> <br> &nbsp;
+			</div>
+			<div align="center">
+				<img src="images/do_rong_nem_kymdan.gif" alt=""
+					style="width: 50%;">
+			</div>
+			<div align="center" style="padding-top: 20px; color: #fff">
+				<span style="font-size: 16px;"> <span
+					style="font-family: comic sans ms, cursive;"> <span
+						style="font-family: arial, helvetica, sans-serif;"> <strong>Các
+								kích thước chiều ngang (rộng) của Nệm&nbsp;KYMDAN</strong>
+					</span>
+				</span>
+				</span> <br> &nbsp;
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- gallery -->
+	<div class="gallery" id="gallery">
+		<h3 style="color: green">Thiết kế thông minh cho căn phòng của
+			bạn</h3>
+		<div class="w3agile_gallery_grids">
+			<div class="col-md-3 w3agile_gallery_grid">
+				<div class="w3agile_gallery_image">
+					<a class="sb" href="images/g1.jpg" title="Ambiance">
+						<figure>
+							<img src="images/g1.jpg" alt="" class="img-responsive" />
+							<figcaption>
+								<h4>dolore magna</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+									sed do eiusmod tempor.</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-3 w3agile_gallery_grid">
+				<div class="w3agile_gallery_image">
+					<a class="sb" title="Ambiance" href="images/g2.jpg">
+						<figure>
+							<img src="images/g2.jpg" alt="" class="img-responsive" />
+							<figcaption>
+								<h4>dolore magna</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+									sed do eiusmod tempor.</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-3 w3agile_gallery_grid">
+				<div class="w3agile_gallery_image">
+					<a class="sb" title="Ambiance" href="images/g3.jpg">
+						<figure>
+							<img src="images/g3.jpg" alt="" class="img-responsive" />
+							<figcaption>
+								<h4>dolore magna</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+									sed do eiusmod tempor.</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-3 w3agile_gallery_grid">
+				<div class="w3agile_gallery_image">
+					<a class="sb" title="Ambiance" href="images/g5.jpg">
+						<figure>
+							<img src="images/g5.jpg" alt="" class="img-responsive" />
+							<figcaption>
+								<h4>dolore magna</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+									sed do eiusmod tempor.</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-3 w3agile_gallery_grid">
+				<div class="w3agile_gallery_image">
+					<a class="sb" title="Ambiance" href="images/g6.jpg">
+						<figure>
+							<img src="images/g6.jpg" alt="" class="img-responsive" />
+							<figcaption>
+								<h4>dolore magna</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+									sed do eiusmod tempor.</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-3 w3agile_gallery_grid">
+				<div class="w3agile_gallery_image">
+					<a class="sb" title="Ambiance" href="images/g7.jpg">
+						<figure>
+							<img src="images/g7.jpg" alt="" class="img-responsive" />
+							<figcaption>
+								<h4>dolore magna</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+									sed do eiusmod tempor.</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-3 w3agile_gallery_grid">
+				<div class="w3agile_gallery_image">
+					<a class="sb" title="Ambiance" href="images/g8.jpg">
+						<figure>
+							<img src="images/g8.jpg" alt="" class="img-responsive" />
+							<figcaption>
+								<h4>dolore magna</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+									sed do eiusmod tempor.</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-3 w3agile_gallery_grid">
+				<div class="w3agile_gallery_image">
+					<a class="sb" title="Ambiance" href="images/g4.jpg">
+						<figure>
+							<img src="images/g4.jpg" alt="" class="img-responsive" />
+							<figcaption>
+								<h4>dolore magna</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+									sed do eiusmod tempor.</p>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<script type="text/javascript" src="/js/smoothbox.jquery2.js"></script>
+		<link rel="stylesheet" href="/css/smoothbox.css" type='text/css'>
+	</div>
+	<!-- //contact -->
+	<hr style="height: 2px; background-color: green">
+
+	<div class="contact" id="contact">
+		<div style="font-size: 13px;">
+			<div class="col-lg-5">
+				<span class="text-uppercase" style="font-size: 18px;"> <strong
+					style="color: green">Công ty Cổ Phần Cao Su Sài Gòn -
+						KYMDAN</strong>
+				</span><br> 28 Bình Thới, Phường 14, Quận 11, Tp. Hồ Chí Minh.<br>
+				<strong>ĐT :</strong> +84 28&nbsp;3861 9999<br> <strong>Email:</strong>
+				<a href="mailto:contactus@kymdan.com" rel="nofollow">contactus@kymdan.com</a><br>
+				Website: <a href="index.html"><strong>www.kymdan.com</strong></a>
+			</div>
+
+			<div class="col-lg-7" style="padding-bottom: 15px">
+				Giấy chứng nhận đăng ký doanh nghiệp số 0301 666 989 do Sở Kế Hoạch
+				và Đầu Tư TP.HCM cấp lần đầu ngày 05 tháng 03 năm 1999.<br>
+				Giấy phép thiết lập website số 227/GP-BC do Bộ Văn hóa - Thông tin
+				cấp ngày 09-08-2006.<br> Khi giấy phép số 227/GP-BC hết hạn, Sở
+				Thông Tin và Truyền Thông TP.HCM cấp giấy phép<br> số
+				61/GP-STTTT ngày 27-07-2011 (<i>căn cứ vào Nghị định
+					97/2008/NĐ-CP ngày 28-08-2008 và Thông tư số 14/2010/TT-BTTTT ngày
+					29-06-2010</i>)<br> Chịu trách nhiệm quản lý nội dung: Ông Nguyễn
+				Trường Ngân, ĐT: +84 9 0372 3736<br> Bản quyền thuộc Công ty
+				KYMDAN<br> version 2.01
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+</body>
+</html>
